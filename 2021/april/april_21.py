@@ -1,9 +1,35 @@
-import json
+# Today we are learning python basic
+# mytuple = ("apple", "banana", "cherry")
+# myString = "Hello"
+# myit = iter(myString)
+# print(next(myit))
+# myString = "Bangladesh"
+# mytuple = ("apple","banana", "cherry")
+# for a in myString:
+#     #print(a)
+#     pass
 
-x = {
-    "name": "John",
-    "age": 30,
-    "city": "new york"
-}
-y = json.dumps(x)
-print(y)
+# class MyNumbers:
+#     def __iter__(self):
+#         self.a = 1
+#         return self
+#     def __next__(self):
+#         if self.a <=115:
+#             x = self.a
+#             self.a +=1
+#             return x
+#         else:
+#             raise StopIteration
+
+
+# myclass = MyNumbers()
+# myiter = iter(myclass)
+# for x in myiter:
+#     print(x)
+
+
+def myfunc(boka):
+    x = boka
+    print(x)
+
+myfunc(500)
